@@ -14,7 +14,7 @@
     between the data and the logic. See an example in the section Usage below.
   </description>
   <url>https://github.com/crgz/workbook</url>
-  
+
   <licenses>
     <license>
       <name>The Apache License, Version 2.0</name>
@@ -100,6 +100,7 @@
           </execution>
         </executions>
       </plugin>
+      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
@@ -110,6 +111,9 @@
             <goals>
               <goal>jar</goal>
             </goals>
+            <configuration>
+              <additionalparam>-Xdoclint:none</additionalparam>
+            </configuration>
           </execution>
         </executions>
       </plugin>
