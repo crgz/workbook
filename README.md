@@ -4,10 +4,10 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-<img src="./site/icons/Libreoffice_icon_mix.png?raw=true" width="20%" align="right" style="border:20px solid white">
+<img src="./site/icons/Libreoffice_icon_mix.png?raw=true" width="15%" align="right" style="border:20px solid white">
 
 
-# Excel Workbook Handler
+# LibreOffice Workbook Handler
 
 ## 💡 Synopsis
 The WorkbookData class uses the Apache POI project to load data from an Excel spreadsheet and transform it into a Collection. A CustomMapper class might be added for a cleaner translation between the data and the logic. See an example in the section Usage below.
