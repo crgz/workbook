@@ -31,7 +31,6 @@
 package com.github.crgz.workbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -69,7 +68,7 @@ public class WorkbookData
 		private HSSFWorkbook workbook;
 		private int index = 0;
 
-		public Builder(String path) throws FileNotFoundException, IOException
+		public Builder(String path) throws IOException
 		{
 			this.workbook = new HSSFWorkbook(new FileInputStream(path));
 		}
@@ -80,7 +79,7 @@ public class WorkbookData
 			return this;
 		}
 
-		public WorkbookData build() throws WorkbookDataException
+		public WorkbookData build()
 		{
 			return new WorkbookData(this);
 		}
@@ -93,8 +92,8 @@ public class WorkbookData
 	{
 		Sheet sheet = this.workbook.getSheetAt(this.index);
 
-		List<Object[]> rows = new ArrayList<Object[]>();
-		List<Object> rowData = new ArrayList<Object>();
+		List<Object[]> rows = new ArrayList<>();
+		List<Object> rowData = new ArrayList<>();
 
 		for (Row row : sheet)
 		{
