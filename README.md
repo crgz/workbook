@@ -10,7 +10,7 @@
 # LibreOffice Workbook Handler
 
 ## 💡 Synopsis
-The WorkbookData class uses the Apache POI project to load data from an Excel spreadsheet and transform it into a Collection. A CustomMapper class might be added for a cleaner translation between the data and the logic. See an example in the section Usage below.
+The WorkbookData class uses the Apache POI project to load data from an LibreOffice/Excel spreadsheet and transform it into a Collection. A CustomMapper class might be added for a cleaner translation between the data and the logic. See an example in the section Usage below.
 
 ## 💾 Installation
 
