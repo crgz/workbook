@@ -73,14 +73,10 @@ public class AggregatorTest
 	@Test
 	public void testAggregator() throws IOException, WorkbookDataException
 	{
-
-
 		this.data.stream().map(CustomMapper::map).forEach(x ->
 		{
 			final Foo event = x.getKey();
-			
-			this.resource.accept(event);
-						
+			this.resource.accept(event);					
 			final Baz expected = x.getValue();
 			final Baz actual = this.resource.get();
 			assertEquals(expected, actual);
