@@ -1,6 +1,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e7b4472a8d342e3839dd70cbc600838)](https://www.codacy.com/app/conrado-m/workbook?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=crgz/workbook&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/crgz/workbook.svg?branch=master)](https://travis-ci.org/crgz/workbook)
-[![Coverage Status](https://coveralls.io/repos/github/conrado-m/workbooks/badge.svg?branch=master)](https://coveralls.io/github/conrado-m/workbooks?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/crgz/workbook/badge.svg?branch=master)](https://coveralls.io/github/crgz/workbook?branch=master)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
